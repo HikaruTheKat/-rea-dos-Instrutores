@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/vanilla-tilt/1.8.1/vanilla-tilt.min.js" integrity="sha512-wC/cunGGDjXSl9OHUH0RuqSyW4YNLlsPwhcLxwWW1CR4OeC2E1xpcdZz2DeQkEmums41laI+eGMw95IJ15SS3g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Área dos Instrutores</title>
+</head>
+<body class="global-body">
+
+    <header class="instrutores-header">
+
+        <img src="instrutor.png" alt="logo" class="logo-instrutores">
+        <h1>Área dos Instrutores</h1>
+
+        <button class="egg-button" id="openGame">
+            <img src="ovo.png" alt="Ovo">
+    
+        </button>
+
+    </header>
+    
+    <main class="instrutores-container">
+        <section class="instrutores-cards">
+
+            <div class="instrutores-card">
+                <h2>Turmas</h2>
+                <img src="turmas.png" class="img-inst">    
+                <a href="turmas.html" target="_blank" class="button-inst">Acessar</a>                
+            </div>
+
+            <div class="instrutores-card">
+                <h2>Eventos</h2>
+                <img src="evento.png" class="img-inst">
+                <a href="eventos.html" target="_blank" class="button-inst">Acessar</a>
+                                
+            </div>
+
+            <div class="instrutores-card">
+                <h2>Campeonatos</h2>
+                <img src="torneios.png" class="img-inst">
+                <a href="torneios.html" target="_blank" class="button-inst">Acessar</a>               
+            </div>
+
+            <div class="instrutores-card">
+                <h2>Gestão Financeira</h2>
+                <img src="gestão.png" class="img-inst">
+                <a href="gestao.html" target="_blank" class="button-inst">Acessar</a>   
+            </div>
+
+        </section>
+    </main>
+
+    
+
+    <div class="popup" id="gamePopup">
+        <div class="popup-content">
+          <button class="close-btn" id="closePopup">&times;</button>
+          <canvas id="gameCanvas" width="400" height="400"></canvas>
+          <button class="restart-btn" id="restartGame">Reiniciar</button>
+        </div>
+      </div>
+
+    <footer class="rodape-inst"><span>@2020 Itaenga Jiu-Jitsu™</span> <span>©2024 SoulDev</span></footer>
+
+
+<script src="script.js"></script>
+</body>
+</html>
+
+
+
+<!-- <textarea name="descricao" id="descricao" cols="30" rows="10" required></textarea> = cria uma áre de texto para o usuário preencher-->
